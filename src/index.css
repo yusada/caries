@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+.model-container {
+  display: flex; /* Mengatur tampilan menjadi flexbox */
+  justify-content: space-around; /* Mendistribusikan gambar secara merata */
+  align-items: center; /* Menyelaraskan gambar secara vertikal */
+}
+
+.model-image {
+  height: auto; /* Mempertahankan rasio aspek gambar */
+}
