@@ -25,7 +25,10 @@ export function DetectionPage() {
     const data = new FormData();
     data.append("image", formData);
     try {
-      const res = await axios.post("http://localhost:5000/prediction", data);
+      const res = await axios.post(
+        "http://139.59.107.155:8000/prediction",
+        data
+      );
       setResult(res.data.prediction);
     } catch (err) {
       console.error("Error detecting caries:", err);
