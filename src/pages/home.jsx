@@ -118,7 +118,7 @@ export function HomePage() {
                 <img src={mailIcon} alt="icon-email" />
                 <div>
                   <h3 className="font-bold">Mail</h3>
-                  <p>example@email.com</p>
+                  <p>3120600025@it.student.pens.ac.id</p>
                 </div>
               </div>
               <div className="flex items-center mt-4 gap-4">
